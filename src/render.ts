@@ -45,9 +45,8 @@ function googleSections(snapshot?: Snapshot, listingUrl?: string): string {
       const copy = review.originalText ?? review.text;
       const language = copy?.languageCode ? ` lang="${e(copy.languageCode)}"` : '';
       const date = review.publishTime ? `<time datetime="${e(review.publishTime)}">${new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(review.publishTime))}</time>` : '';
-      const visit = review.visitDate ? `<p class="review-date">Visite : ${String(review.visitDate.month).padStart(2, '0')}/${review.visitDate.year}</p>` : '';
       const links = [review.googleMapsUri ? external(review.googleMapsUri, 'Voir cet avis') : '', review.flagContentUri ? external(review.flagContentUri, 'Signaler') : ''].filter(Boolean).join(' · ');
-      return `<article class="review">${authorCredit(review.authorAttribution)}<div class="review-meta">${review.rating !== undefined ? `<span aria-label="${review.rating} sur 5">${review.rating} / 5</span>` : ''}${date}</div>${copy?.text ? `<blockquote${language}>${e(copy.text)}</blockquote>` : ''}${visit}${links ? `<p class="credits">${links}</p>` : ''}</article>`;
+      return `<article class="review">${authorCredit(review.authorAttribution)}<div class="review-meta">${review.rating !== undefined ? `<span aria-label="${review.rating} sur 5">${review.rating} / 5</span>` : ''}${date}</div>${copy?.text ? `<blockquote${language}>${e(copy.text)}</blockquote>` : ''}${links ? `<p class="credits">${links}</p>` : ''}</article>`;
     }).join('');
     html += section('avis', 'Les retours de nos clients', `<div class="google-summary">${summary}</div>${attribution}${place.reviews.length ? '<p class="section-note">Avis fournis par Google Maps, classés par pertinence. Tous les avis retournés sont affichés, dans leur ordre d’origine ; cette sélection ne représente pas nécessairement tous les avis.</p>' : ''}<div class="reviews-grid">${reviews}</div>${place.googleMapsUri ? `<p class="source-link">${external(place.googleMapsUri, 'Consulter la fiche sur Google Maps')}</p>` : ''}`, 'reviews-section');
   }
