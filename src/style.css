@@ -270,3 +270,9 @@ blockquote{white-space:pre-wrap;margin-block:1rem;overflow-wrap:anywhere}
 .hero-rating strong{color:var(--texte)}
 .hero-rating>span[translate]{font-weight:400;color:#5e5e5e;white-space:nowrap;font-size:.75rem}
 .hero-rating:hover{text-decoration:underline}
+
+/* Complete the five-review grid with a clearly identified Google link. */
+.review-more{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:1.2rem;padding:2rem;border:1px solid var(--rule);background:var(--sable);min-width:0}
+.review-more h3{font-size:1.8rem;line-height:1.15}
+.review-more>p:not(.google-credit){font-size:.9rem;line-height:1.65;color:#62696d;max-width:30ch}
+.review-more>a{font-size:.85rem;font-weight:600;text-underline-offset:4px;color:var(--rouge)}
