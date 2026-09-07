@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nettoyage et démoussage de toiture à Bayonne — Les Compagnons des Toitures</title>
+<meta name="description" content="Démoussage, nettoyage et traitement hydrofuge de toiture à Bayonne, Anglet, Biarritz et dans tout le Pays Basque. Diagnostic et devis gratuits.">
+<link rel="canonical" href="https://www.compagnons-toitures-bayonne.fr/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nettoyage et démoussage de toiture à Bayonne">
+<meta property="og:description" content="Démoussage, nettoyage et traitement hydrofuge de toiture au Pays Basque. Devis gratuit.">
+<meta property="og:locale" content="fr_FR">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "name": "Les Compagnons des Toitures",
+  "description": "Démoussage, nettoyage et traitement hydrofuge de toiture à Bayonne et au Pays Basque.",
+  "telephone": "+33559000000",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bayonne",
+    "postalCode": "64100",
+    "addressRegion": "Pyrénées-Atlantiques",
+    "addressCountry": "FR"
+  },
+  "areaServed": [
+    "Bayonne","Anglet","Biarritz","Boucau","Tarnos","Saint-Jean-de-Luz",
+    "Bidart","Guéthary","Ustaritz","Cambo-les-Bains","Hendaye","Saint-Pierre-d'Irube"
+  ],
+  "priceRange": "€€",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "08:00",
+    "closes": "18:00"
+  }
+}
+</script>
+
+<style>
+:root{
+  --ardoise:#252A2E;
+  --ardoise-2:#3C444A;
+  --chaux:#EFF0ED;
+  --chaux-2:#E1E3DE;
+  --rouge:#9E2029;
+  --rouge-vif:#BE2A34;
+  --mousse:#5F7048;
+  --terre:#C0663A;
+  --texte:#1B1F22;
+  --sable:#FAFAF8;
+  --rule:#D3D6D0;
+
+  --display:"Bricolage Grotesque",Georgia,serif;
+  --body:"Archivo",system-ui,sans-serif;
+  --wrap:1180px;
+  --gut:clamp(1.25rem,4vw,3rem);
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--body);
+  color:var(--texte);
+  background:var(--sable);
+  font-size:clamp(1rem,.96rem + .2vw,1.0625rem);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3{font-family:var(--display);font-weight:800;line-height:1.02;letter-spacing:-.025em}
+h1{font-size:clamp(2.4rem,1.4rem + 4.4vw,4.6rem)}
+h2{font-size:clamp(1.85rem,1.3rem + 2.2vw,2.9rem)}
+h3{font-size:1.2rem;font-weight:600;letter-spacing:-.01em;line-height:1.2}
+p{max-width:66ch}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+
+.wrap{max-width:var(--wrap);margin-inline:auto;padding-inline:var(--gut)}
+section{padding-block:clamp(3.5rem,7vw,6.5rem)}
+
+:focus-visible{outline:3px solid var(--rouge-vif);outline-offset:3px;border-radius:2px}
+
+/* ---------- barre de contact ---------- */
+.topbar{
+  position:sticky;top:0;z-index:50;
+  background:var(--ardoise);color:var(--chaux);
+  border-bottom:1px solid rgba(255,255,255,.1);
+}
+.topbar .wrap{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:1rem;padding-block:.85rem;
+}
+.marque{font-family:var(--display);font-weight:800;font-size:1.02rem;letter-spacing:-.02em;line-height:1.15}
+.marque span{display:block;font-family:var(--body);font-weight:400;font-size:.7rem;letter-spacing:.06em;color:#9AA3A8}
+.tel{
+  display:inline-flex;align-items:center;gap:.5rem;
+  background:var(--rouge-vif);color:#fff;text-decoration:none;
+  font-weight:600;font-size:.98rem;
+  padding:.6rem 1.1rem;border-radius:3px;white-space:nowrap;
+}
+.tel:hover{background:#D33440}
+
+/* ---------- héros ---------- */
+.hero{background:var(--chaux);padding-block:clamp(3rem,6vw,5rem);border-bottom:1px solid var(--rule)}
+.hero .wrap{display:grid;grid-template-columns:1fr;gap:clamp(2.2rem,4vw,3.5rem);align-items:center}
+@media(min-width:900px){.hero .wrap{grid-template-columns:1.02fr 1.1fr}}
+.hero h1{max-width:11ch}
+.hero .lede{margin-top:1.4rem;font-size:1.12rem;max-width:46ch;color:#3A4045}
+.actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2rem}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:.95rem 1.6rem;border-radius:3px;text-decoration:none;
+  font-weight:600;font-size:1rem;border:2px solid var(--ardoise);
+}
+.btn-plein{background:var(--ardoise);color:var(--chaux)}
+.btn-plein:hover{background:#12161A}
+.btn-vide{background:transparent;color:var(--ardoise)}
+.btn-vide:hover{background:var(--chaux-2)}
+
+/* ---------- comparateur ---------- */
+.compare{
+  position:relative;aspect-ratio:4/3;overflow:hidden;
+  border-radius:4px;box-shadow:0 18px 40px -22px rgba(20,25,28,.55);
+  user-select:none;touch-action:pan-y;cursor:ew-resize;
+}
+.compare .couche{position:absolute;inset:0}
+.compare .apres{clip-path:inset(0 0 0 var(--pos,50%))}
+.compare svg{width:100%;height:100%}
+.poignee{
+  position:absolute;top:0;bottom:0;left:var(--pos,50%);
+  width:3px;background:var(--chaux);transform:translateX(-1.5px);
+  box-shadow:0 0 0 1px rgba(0,0,0,.28);
+}
+.poignee::after{
+  content:"";position:absolute;top:50%;left:50%;
+  width:46px;height:46px;transform:translate(-50%,-50%);
+  border-radius:50%;background:var(--chaux);
+  box-shadow:0 3px 12px rgba(0,0,0,.35);
+}
+.poignee::before{
+  content:"";position:absolute;top:50%;left:50%;z-index:2;
+  width:19px;height:9px;transform:translate(-50%,-50%);
+  background:
+    linear-gradient(to right,var(--ardoise) 0 5px,transparent 5px 14px,var(--ardoise) 14px 19px);
+  clip-path:polygon(0 50%,5px 0,5px 100%,14px 0,19px 50%,14px 100%);
+}
+.etiq{
+  position:absolute;bottom:1rem;z-index:3;
+  font-size:.72rem;font-weight:600;letter-spacing:.09em;
+  padding:.4rem .7rem;border-radius:2px;color:#fff;
+  background:rgba(20,25,28,.82);backdrop-filter:blur(3px);
+}
+.etiq-a{left:1rem}
+.etiq-b{right:1rem}
+
+/* ---------- bandeau confiance ---------- */
+.bandeau{background:var(--rouge);color:#fff}
+.bandeau .wrap{
+  display:flex;flex-wrap:wrap;gap:.4rem 2.6rem;
+  padding-block:1.05rem;font-size:.94rem;font-weight:500;
+}
+.bandeau li{list-style:none;display:flex;align-items:center;gap:.55rem}
+.bandeau svg{flex:none;width:17px;height:17px}
+
+/* ---------- prestations ---------- */
+.grille{display:grid;gap:0;margin-top:3rem;border-top:1px solid var(--rule)}
+@media(min-width:760px){.grille{grid-template-columns:1fr 1fr;column-gap:3.5rem}}
+.presta{padding-block:1.9rem;border-bottom:1px solid var(--rule)}
+.presta h3{margin-bottom:.55rem}
+.presta p{font-size:.97rem;color:#4A5157;max-width:52ch}
+.presta .prix{
+  display:block;margin-top:.75rem;font-size:.83rem;font-weight:600;
+  color:var(--rouge);letter-spacing:.01em;
+}
+
+/* ---------- étapes ---------- */
+.etapes{background:var(--ardoise);color:var(--chaux)}
+.etapes h2{color:#fff}
+.etapes ol{list-style:none;counter-reset:e;display:grid;gap:0;margin-top:2.8rem}
+@media(min-width:820px){.etapes ol{grid-template-columns:repeat(4,1fr);gap:2rem}}
+.etapes li{counter-increment:e;padding-block:1.5rem;border-top:1px solid rgba(255,255,255,.16)}
+.etapes li::before{
+  content:counter(e);display:block;font-family:var(--display);
+  font-weight:800;font-size:2.4rem;color:var(--rouge-vif);line-height:1;margin-bottom:.7rem;
+}
+.etapes h3{color:#fff;margin-bottom:.4rem}
+.etapes p{font-size:.94rem;color:#B4BCC1;max-width:34ch}
+
+/* ---------- zone ---------- */
+.zone{background:var(--chaux)}
+.villes{
+  display:flex;flex-wrap:wrap;gap:.5rem;margin-top:2.2rem;max-width:74ch;
+}
+.villes a{
+  text-decoration:none;font-size:.94rem;font-weight:500;
+  padding:.48rem .9rem;background:#fff;border:1px solid var(--rule);border-radius:2px;
+}
+.villes a:hover{border-color:var(--ardoise);background:var(--ardoise);color:var(--chaux)}
+
+/* ---------- texte ---------- */
+.prose h2{margin-bottom:1.5rem}
+.prose p+p{margin-top:1.1rem}
+.prose p{color:#3A4045}
+
+/* ---------- devis ---------- */
+.devis{background:var(--ardoise);color:var(--chaux)}
+.devis h2{color:#fff}
+.devis .wrap{display:grid;gap:clamp(2.2rem,4vw,4rem)}
+@media(min-width:880px){.devis .wrap{grid-template-columns:.85fr 1.15fr}}
+.devis .intro p{color:#B4BCC1;margin-top:1.1rem;max-width:38ch}
+.gros-tel{
+  display:inline-block;margin-top:2rem;font-family:var(--display);
+  font-weight:800;font-size:clamp(1.6rem,4vw,2.1rem);
+  color:#fff;text-decoration:none;letter-spacing:-.02em;
+}
+.gros-tel:hover{color:var(--rouge-vif)}
+form{display:grid;gap:1.05rem}
+.duo{display:grid;gap:1.05rem}
+@media(min-width:520px){.duo{grid-template-columns:1fr 1fr}}
+label{display:block;font-size:.85rem;font-weight:600;margin-bottom:.4rem;color:#C9D0D4}
+input,select,textarea{
+  width:100%;font:inherit;font-size:1rem;color:#fff;
+  background:rgba(255,255,255,.07);
+  border:1px solid rgba(255,255,255,.22);border-radius:3px;
+  padding:.8rem .9rem;
+}
+input::placeholder,textarea::placeholder{color:#7E888E}
+select option{color:#1B1F22}
+textarea{resize:vertical;min-height:110px}
+button[type=submit]{
+  font:inherit;font-weight:600;font-size:1.02rem;cursor:pointer;
+  background:var(--rouge-vif);color:#fff;border:0;border-radius:3px;padding:1rem 1.5rem;
+}
+button[type=submit]:hover{background:#D33440}
+.rgpd{font-size:.78rem;color:#8C959A;max-width:52ch}
+
+/* ---------- pied ---------- */
+footer{background:#171B1E;color:#8C959A;font-size:.86rem;padding-block:3rem}
+footer .cols{display:grid;gap:2rem;margin-bottom:2.2rem}
+@media(min-width:700px){footer .cols{grid-template-columns:1.3fr 1fr 1fr}}
+footer h4{color:var(--chaux);font-size:.82rem;font-weight:600;letter-spacing:.05em;margin-bottom:.7rem}
+footer p{margin-bottom:.3rem}
+footer a{color:#8C959A}
+.legal{border-top:1px solid #2A2F33;padding-top:1.6rem;font-size:.78rem;line-height:1.7}
+.ph{color:var(--terre);font-weight:600}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="marque">Les Compagnons des Toitures<span>Bayonne · Pays Basque</span></div>
+    <a class="tel" href="tel:+33559000000">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.24 11.4 11.4 0 003.6.58 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.6a1 1 0 01-.25 1z"/></svg>
+      <span class="ph">05 59 XX XX XX</span>
+    </a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Votre toit est vert. Il ne devrait pas l'être.</h1>
+      <p class="lede">Démoussage, nettoyage et traitement hydrofuge de toiture à Bayonne, Anglet, Biarritz et dans tout le Pays Basque. Diagnostic sur place et devis gratuits.</p>
+      <div class="actions">
+        <a class="btn btn-plein" href="#devis">Demander un devis gratuit</a>
+        <a class="btn btn-vide" href="tel:+33559000000">Nous appeler</a>
+      </div>
+    </div>
+
+    <!-- Remplacer les deux blocs SVG ci-dessous par de vraies photos avant/apres -->
+    <div class="compare" id="compare" role="group" aria-label="Comparaison avant et après nettoyage">
+      <div class="couche">
+        <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <defs>
+            <pattern id="tuiles-sale" width="40" height="26" patternUnits="userSpaceOnUse">
+              <rect width="40" height="26" fill="#8A6F5C"/>
+              <path d="M0 26 Q10 4 20 26 Q30 4 40 26" fill="none" stroke="#6E5747" stroke-width="2.5"/>
+              <path d="M-20 26 Q-10 4 0 26" fill="none" stroke="#6E5747" stroke-width="2.5"/>
+            </pattern>
+          </defs>
+          <rect width="400" height="300" fill="url(#tuiles-sale)"/>
+          <g fill="#5F7048" opacity=".78">
+            <ellipse cx="60" cy="48" rx="46" ry="24"/><ellipse cx="150" cy="30" rx="58" ry="22"/>
+            <ellipse cx="268" cy="60" rx="52" ry="27"/><ellipse cx="355" cy="38" rx="44" ry="23"/>
+            <ellipse cx="96" cy="112" rx="54" ry="26"/><ellipse cx="220" cy="132" rx="60" ry="28"/>
+            <ellipse cx="336" cy="118" rx="46" ry="24"/><ellipse cx="30" cy="176" rx="48" ry="25"/>
+            <ellipse cx="160" cy="198" rx="56" ry="26"/><ellipse cx="290" cy="186" rx="50" ry="27"/>
+            <ellipse cx="380" cy="212" rx="42" ry="24"/><ellipse cx="80" cy="250" rx="58" ry="28"/>
+            <ellipse cx="215" cy="266" rx="52" ry="26"/><ellipse cx="340" cy="272" rx="48" ry="25"/>
+          </g>
+          <g fill="#3E4A2E" opacity=".5">
+            <ellipse cx="120" cy="70" rx="26" ry="13"/><ellipse cx="300" cy="150" rx="30" ry="14"/>
+            <ellipse cx="55" cy="215" rx="24" ry="12"/><ellipse cx="250" cy="230" rx="28" ry="13"/>
+          </g>
+          <rect width="400" height="300" fill="#1F2418" opacity=".16"/>
+        </svg>
+      </div>
+      <div class="couche apres">
+        <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <defs>
+            <linearGradient id="lum" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#D4794A"/><stop offset="1" stop-color="#B85C33"/>
+            </linearGradient>
+            <pattern id="tuiles-net" width="40" height="26" patternUnits="userSpaceOnUse">
+              <rect width="40" height="26" fill="url(#lum)"/>
+              <path d="M0 26 Q10 4 20 26 Q30 4 40 26" fill="none" stroke="#94441F" stroke-width="2.5"/>
+              <path d="M-20 26 Q-10 4 0 26" fill="none" stroke="#94441F" stroke-width="2.5"/>
+              <path d="M4 24 Q10 8 16 24" fill="none" stroke="#E39A6E" stroke-width="1.4" opacity=".7"/>
+            </pattern>
+          </defs>
+          <rect width="400" height="300" fill="url(#tuiles-net)"/>
+        </svg>
+      </div>
+      <span class="etiq etiq-a">AVANT</span>
+      <span class="etiq etiq-b">APRÈS</span>
+      <div class="poignee" id="poignee"></div>
+      <input type="range" min="0" max="100" value="50" id="curseur"
+             aria-label="Faire glisser pour comparer avant et après"
+             style="position:absolute;inset:auto 0 0 0;opacity:0;height:100%;width:100%;cursor:ew-resize">
+    </div>
+  </div>
+</div>
+
+<div class="bandeau">
+  <ul class="wrap">
+    <li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>Devis gratuit sous 48 h</li>
+    <li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>Assurance décennale</li>
+    <li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>Artisan basé à Bayonne</li>
+    <li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>Produits sans danger pour vos plantations</li>
+  </ul>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>Ce que nous faisons</h2>
+    <div class="grille">
+      <article class="presta">
+        <h3>Démoussage de toiture</h3>
+        <p>Retrait manuel et mécanique des mousses, lichens et algues, puis rinçage basse pression. Sur tuile canal, tuile plate, ardoise ou bac acier.</p>
+        <span class="prix">à partir de <span class="ph">XX €/m²</span></span>
+      </article>
+      <article class="presta">
+        <h3>Traitement anti-mousse</h3>
+        <p>Application d'un produit curatif après nettoyage pour retarder la repousse. Sans danger pour votre jardin et vos récupérateurs d'eau.</p>
+        <span class="prix">à partir de <span class="ph">XX €/m²</span></span>
+      </article>
+      <article class="presta">
+        <h3>Traitement hydrofuge</h3>
+        <p>Imperméabilisation de la couverture, incolore ou colorée. L'eau ruisselle au lieu de pénétrer la tuile : moins de gel, moins de fissures, moins de mousse.</p>
+        <span class="prix">à partir de <span class="ph">XX €/m²</span></span>
+      </article>
+      <article class="presta">
+        <h3>Nettoyage de gouttières</h3>
+        <p>Curage complet des chéneaux et descentes, contrôle des fixations et des points d'écoulement. Souvent la vraie cause d'une infiltration.</p>
+        <span class="prix">à partir de <span class="ph">XX €</span></span>
+      </article>
+      <article class="presta">
+        <h3>Réparations ponctuelles</h3>
+        <p>Remplacement de tuiles cassées, reprise de faîtage, remise en place d'éléments déplacés — repérés pendant le nettoyage et traités dans la foulée.</p>
+        <span class="prix">sur devis</span>
+      </article>
+      <article class="presta">
+        <h3>Entretien annuel</h3>
+        <p>Une visite par an, contrôle photo de la couverture et petit entretien inclus. La façon la moins chère d'éviter une réfection complète.</p>
+        <span class="prix">forfait annuel</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="etapes">
+  <div class="wrap">
+    <h2>Comment ça se passe</h2>
+    <ol>
+      <li>
+        <h3>Vous appelez</h3>
+        <p>Décrivez votre toit en deux minutes. Nous convenons d'une date de visite.</p>
+      </li>
+      <li>
+        <h3>Diagnostic sur place</h3>
+        <p>Nous montons, nous photographions l'état réel de la couverture et nous vous montrons.</p>
+      </li>
+      <li>
+        <h3>Devis détaillé</h3>
+        <p>Prix ferme, poste par poste, valable 30 jours. Gratuit et sans engagement.</p>
+      </li>
+      <li>
+        <h3>Intervention</h3>
+        <p>Une journée en général. Bâchage des plantations, nettoyage du chantier, photos avant/après.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="zone">
+  <div class="wrap">
+    <h2>Où nous intervenons</h2>
+    <p>Nous sommes basés à Bayonne et nous nous déplaçons dans un rayon de 30 km, sur tout le BAB et la côte basque.</p>
+    <nav class="villes" aria-label="Communes desservies">
+      <a href="#devis">Bayonne</a><a href="#devis">Anglet</a><a href="#devis">Biarritz</a>
+      <a href="#devis">Boucau</a><a href="#devis">Tarnos</a><a href="#devis">Saint-Pierre-d'Irube</a>
+      <a href="#devis">Ustaritz</a><a href="#devis">Cambo-les-Bains</a><a href="#devis">Bidart</a>
+      <a href="#devis">Guéthary</a><a href="#devis">Saint-Jean-de-Luz</a><a href="#devis">Ciboure</a>
+      <a href="#devis">Hendaye</a><a href="#devis">Urrugne</a><a href="#devis">Arcangues</a>
+      <a href="#devis">Bassussarry</a><a href="#devis">Villefranque</a><a href="#devis">Mouguerre</a>
+    </nav>
+  </div>
+</section>
+
+<section class="prose">
+  <div class="wrap">
+    <h2>Pourquoi démousser sa toiture au Pays Basque</h2>
+    <p>Entre l'humidité de l'océan, les pluies fréquentes et la douceur des hivers, la côte basque réunit exactement les conditions dont la mousse a besoin. Sur une toiture exposée au nord, une couche visible peut se former en trois à quatre ans.</p>
+    <p>Le problème n'est pas esthétique. La mousse retient l'eau contre la tuile au lieu de la laisser s'écouler. En hiver, cette eau gèle, se dilate et fait éclater la terre cuite de l'intérieur. Les racines des lichens s'infiltrent dans les micro-fissures et les élargissent. Les débris finissent dans les gouttières, qui débordent et ruissellent le long des murs.</p>
+    <p>Un démoussage tous les trois à cinq ans, suivi d'un traitement hydrofuge, coûte une fraction du prix d'une réfection de couverture et prolonge la durée de vie du toit de plusieurs dizaines d'années. C'est un entretien, pas une réparation — et c'est justement pour ça qu'on l'oublie.</p>
+  </div>
+</section>
+
+<section class="devis" id="devis">
+  <div class="wrap">
+    <div class="intro">
+      <h2>Demandez votre devis</h2>
+      <p>Gratuit, sans engagement, réponse sous 48 heures. Vous pouvez aussi nous appeler directement.</p>
+      <a class="gros-tel ph" href="tel:+33559000000">05 59 XX XX XX</a>
+    </div>
+
+    <!-- Endpoint gratuit Web3Forms : remplacer la clé par la vôtre -->
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="VOTRE-CLE-WEB3FORMS">
+      <input type="hidden" name="subject" value="Nouvelle demande de devis — site web">
+      <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" aria-hidden="true">
+
+      <div class="duo">
+        <div>
+          <label for="nom">Nom</label>
+          <input id="nom" name="nom" type="text" required autocomplete="name">
+        </div>
+        <div>
+          <label for="tel">Téléphone</label>
+          <input id="tel" name="telephone" type="tel" required autocomplete="tel">
+        </div>
+      </div>
+      <div class="duo">
+        <div>
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" required autocomplete="email">
+        </div>
+        <div>
+          <label for="ville">Commune</label>
+          <input id="ville" name="ville" type="text" placeholder="Bayonne, Anglet…" required>
+        </div>
+      </div>
+      <div>
+        <label for="besoin">Votre besoin</label>
+        <select id="besoin" name="besoin">
+          <option>Démoussage de toiture</option>
+          <option>Traitement hydrofuge</option>
+          <option>Nettoyage de gouttières</option>
+          <option>Réparation de toiture</option>
+          <option>Je ne sais pas encore</option>
+        </select>
+      </div>
+      <div>
+        <label for="msg">Précisions (surface, type de tuile, étage…)</label>
+        <textarea id="msg" name="message" placeholder="Maison de plain-pied, tuile canal, environ 90 m²…"></textarea>
+      </div>
+      <button type="submit">Envoyer ma demande</button>
+      <p class="rgpd">Vos données servent uniquement à traiter votre demande de devis. Elles ne sont ni revendues ni transmises. Vous pouvez demander leur suppression à tout moment.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>Les Compagnons des Toitures</h4>
+        <p>Nettoyage, démoussage et traitement de toiture à Bayonne et au Pays Basque.</p>
+        <p class="ph">05 59 XX XX XX</p>
+      </div>
+      <div>
+        <h4>Prestations</h4>
+        <p>Démoussage de toiture</p>
+        <p>Traitement hydrofuge</p>
+        <p>Nettoyage de gouttières</p>
+        <p>Réparations ponctuelles</p>
+      </div>
+      <div>
+        <h4>Zone</h4>
+        <p>Bayonne · Anglet · Biarritz</p>
+        <p>Boucau · Tarnos · Bidart</p>
+        <p>Saint-Jean-de-Luz · Hendaye</p>
+      </div>
+    </div>
+    <div class="legal">
+      <strong style="color:var(--chaux)">Mentions légales</strong><br>
+      Éditeur : <span class="ph">[Raison sociale exacte]</span> — <span class="ph">[Forme juridique]</span> au capital de <span class="ph">[montant]</span> €.
+      Siège social : <span class="ph">[adresse complète, 64100 Bayonne]</span>.
+      SIREN <span class="ph">[XXX XXX XXX]</span> — RCS <span class="ph">[ville]</span> — TVA <span class="ph">[FR XX XXX XXX XXX]</span>.
+      Directeur de la publication : <span class="ph">[nom du gérant]</span>.
+      Assurance décennale : <span class="ph">[assureur, n° de contrat, zone couverte]</span>.
+      Hébergeur : Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, USA.
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var zone = document.getElementById('compare');
+  var input = document.getElementById('curseur');
+  var poignee = document.getElementById('poignee');
+  if(!zone || !input) return;
+
+  function place(v){
+    zone.style.setProperty('--pos', v + '%');
+    poignee.style.left = v + '%';
+  }
+  input.addEventListener('input', function(){ place(this.value); });
+
+  function depuisPointeur(e){
+    var r = zone.getBoundingClientRect();
+    var x = (e.touches ? e.touches[0].clientX : e.clientX) - r.left;
+    var v = Math.max(0, Math.min(100, (x / r.width) * 100));
+    input.value = v;
+    place(v);
+  }
+  var actif = false;
+  zone.addEventListener('pointerdown', function(e){ actif = true; depuisPointeur(e); });
+  window.addEventListener('pointermove', function(e){ if(actif) depuisPointeur(e); });
+  window.addEventListener('pointerup', function(){ actif = false; });
+
+  place(50);
+
+  // Une seule démonstration au chargement, pour montrer que ça glisse.
+  var calme = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!calme){
+    var debut = null, de = 82, vers = 42, duree = 1100;
+    place(de); input.value = de;
+    setTimeout(function(){
+      requestAnimationFrame(function anime(t){
+        if(!debut) debut = t;
+        var p = Math.min(1, (t - debut) / duree);
+        var e = 1 - Math.pow(1 - p, 3);
+        var v = de + (vers - de) * e;
+        place(v); input.value = v;
+        if(p < 1) requestAnimationFrame(anime);
+      });
+    }, 550);
+  }
+})();
+</script>
+</body>
+</html>

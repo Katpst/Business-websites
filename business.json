@@ -1,0 +1,139 @@
+{
+  "name": "Les Compagnons des Toitures",
+  "location": "Bayonne",
+  "address": "47 Allée des Marines, 64100 Bayonne, France",
+  "phone": "+33 6 50 52 88 67",
+  "email": "",
+  "externalLinks": [],
+  "website": "",
+  "hero": {
+    "eyebrow": "Couverture · Rénovation · Entretien",
+    "title": "Un toit pour longtemps.",
+    "titleAccent": "Un projet bien accompagné.",
+    "description": "Construction, rénovation, réparation ou entretien : Les Compagnons des Toitures vous accompagnent à Bayonne, au Pays Basque et dans les Landes.",
+    "image": {
+      "file": "images/demo/couverture.webp",
+      "alt": "Pose de tuiles sur une couverture, avec liteaux et noue métallique visibles",
+      "credit": "Google Maps",
+      "creditUrl": "https://www.google.com/maps/place/Nettoyage+toiture+les+compagnons+des+toitures/@43.4986769,-1.4883894,17z/data=!3m1!4b1!4m6!3m5!1s0x4067b416b0be249:0x36b24e59060d52a7!8m2!3d43.4986769!4d-1.4883894!16s%2Fg%2F11krbnxlth?hl=fr"
+    },
+    "detailImage": {
+      "file": "images/demo/faitage.webp",
+      "alt": "Travaux de faîtage sur une toiture en tuiles",
+      "credit": "Google Maps",
+      "creditUrl": "https://www.google.com/maps/place/Nettoyage+toiture+les+compagnons+des+toitures/@43.4986769,-1.4883894,17z/data=!3m1!4b1!4m6!3m5!1s0x4067b416b0be249:0x36b24e59060d52a7!8m2!3d43.4986769!4d-1.4883894!16s%2Fg%2F11krbnxlth?hl=fr"
+    }
+  },
+  "services": [
+    {
+      "title": "Couverture & rénovation",
+      "description": "Une couverture neuve ou une toiture à rénover ? Parlons de votre bâtiment, de vos besoins et des travaux à envisager.",
+      "price": "",
+      "details": [
+        "Construction de toiture",
+        "Rénovation de couverture",
+        "Pose de tuiles et faîtage"
+      ],
+      "image": {
+        "file": "images/demo/faitage.webp",
+        "alt": "Assemblage du faîtage et des tuiles pendant des travaux de couverture",
+        "credit": "Google Maps",
+        "creditUrl": "https://www.google.com/maps/place/Nettoyage+toiture+les+compagnons+des+toitures/@43.4986769,-1.4883894,17z/data=!3m1!4b1!4m6!3m5!1s0x4067b416b0be249:0x36b24e59060d52a7!8m2!3d43.4986769!4d-1.4883894!16s%2Fg%2F11krbnxlth?hl=fr"
+      }
+    },
+    {
+      "title": "Réparations de toiture",
+      "description": "Une tuile abîmée, un faîtage à reprendre ou une infiltration : une intervention adaptée à l’état de votre toiture.",
+      "price": "",
+      "details": [
+        "Tuiles et éléments de couverture",
+        "Reprises de faîtage",
+        "Points d’étanchéité"
+      ],
+      "image": {
+        "file": "images/demo/reparation.webp",
+        "alt": "Reprise de tuiles et de mortier à la jonction entre une toiture et un mur",
+        "credit": "Google Maps",
+        "creditUrl": "https://www.google.com/maps/place/Nettoyage+toiture+les+compagnons+des+toitures/@43.4986769,-1.4883894,17z/data=!3m1!4b1!4m6!3m5!1s0x4067b416b0be249:0x36b24e59060d52a7!8m2!3d43.4986769!4d-1.4883894!16s%2Fg%2F11krbnxlth?hl=fr"
+      }
+    },
+    {
+      "title": "Nettoyage & protection",
+      "description": "Préserver l’existant, c’est aussi entretenir sa toiture. Du nettoyage des tuiles à l’évacuation des eaux de pluie.",
+      "price": "",
+      "details": [
+        "Nettoyage et traitement anti-mousse",
+        "Traitement hydrofuge",
+        "Nettoyage de gouttières"
+      ],
+      "image": {
+        "file": "images/demo/toiture-entretenue.webp",
+        "alt": "Vue d’une couverture en tuiles entretenue, avec jardin et maisons à l’arrière-plan",
+        "credit": "Google Maps",
+        "creditUrl": "https://www.google.com/maps/place/Nettoyage+toiture+les+compagnons+des+toitures/@43.4986769,-1.4883894,17z/data=!3m1!4b1!4m6!3m5!1s0x4067b416b0be249:0x36b24e59060d52a7!8m2!3d43.4986769!4d-1.4883894!16s%2Fg%2F11krbnxlth?hl=fr"
+      }
+    }
+  ],
+  "serviceAreas": [
+    "Biarritz",
+    "Bayonne",
+    "Ondres",
+    "Labenne",
+    "Saint-Jean-de-Luz",
+    "Anglet",
+    "Boucau",
+    "Espelette",
+    "Saint-Pierre-d'Irube",
+    "Urcuit",
+    "Pays Basque français",
+    "Tarnos",
+    "Landes"
+  ],
+  "verifiedClaims": [],
+  "steps": [],
+  "about": {
+    "title": "",
+    "paragraphs": []
+  },
+  "beforeAfter": {
+    "caption": "Faites glisser la poignée pour comparer. Prises de vue légèrement différentes.",
+    "sameJobConfirmed": true,
+    "before": {
+      "file": "images/demo/entretien-avant.webp",
+      "alt": "Avant nettoyage : tuiles couvertes de lichens, devant une maison aux volets bleus",
+      "credit": "Google Maps",
+      "creditUrl": "https://www.google.com/maps/place/Nettoyage+toiture+les+compagnons+des+toitures/@43.4986769,-1.4883894,17z/data=!3m1!4b1!4m6!3m5!1s0x4067b416b0be249:0x36b24e59060d52a7!8m2!3d43.4986769!4d-1.4883894!16s%2Fg%2F11krbnxlth?hl=fr"
+    },
+    "after": {
+      "file": "images/demo/entretien-apres.webp",
+      "alt": "Après nettoyage : la même couverture devant la maison aux volets bleus",
+      "credit": "Google Maps",
+      "creditUrl": "https://www.google.com/maps/place/Nettoyage+toiture+les+compagnons+des+toitures/@43.4986769,-1.4883894,17z/data=!3m1!4b1!4m6!3m5!1s0x4067b416b0be249:0x36b24e59060d52a7!8m2!3d43.4986769!4d-1.4883894!16s%2Fg%2F11krbnxlth?hl=fr"
+    }
+  },
+  "legal": {
+    "legalName": "",
+    "legalForm": "",
+    "shareCapital": "",
+    "address": "",
+    "siren": "",
+    "siret": "",
+    "registration": "",
+    "vatNumber": "",
+    "publicationDirector": "",
+    "insurance": "",
+    "hosting": "",
+    "mediator": ""
+  },
+  "privacyText": "",
+  "termsText": "",
+  "google": {
+    "listingUrl": "https://www.google.com/maps/place/Nettoyage+toiture+les+compagnons+des+toitures/@43.4986769,-1.4883894,17z/data=!3m1!4b1!4m6!3m5!1s0x4067b416b0be249:0x36b24e59060d52a7!8m2!3d43.4986769!4d-1.4883894!16s%2Fg%2F11krbnxlth?hl=fr",
+    "placeId": "ChIJSeILa0F7BgQRp1INBllOsjY",
+    "maxPhotos": 0,
+    "snapshotPermission": {
+      "basis": "User confirmed permission for this private business demo and explicitly requested Google Places API reviews. No expiry was supplied."
+    }
+  },
+  "projects": []
+}

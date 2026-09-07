@@ -1,0 +1,20 @@
+{
+  "name": "bayonne-roofing-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "fetch:google": "tsx scripts/fetch-google.ts",
+    "build": "tsx scripts/build.ts",
+    "preview": "tsx scripts/preview.ts",
+    "check": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "zod": "^4.0.0"
+  }
+}
